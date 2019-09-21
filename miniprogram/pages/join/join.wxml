@@ -25,7 +25,7 @@
   <button class='btn-ask'>
   <image src='/images/wechat_ask.png'></image>
   </button>
-  <button class='btn-call'>
+  <button class='btn-call' bindtap='toCall'>
   <image src='/images/wechat_call.png'></image>
   </button>
 </view>
