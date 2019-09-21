@@ -1,1 +1,76 @@
 /* pages/join/join.wxss */
+page{
+  background: #f3f3f3;
+}
+.banner{
+  display: block;
+  width: 100%;
+  height: 340rpx;
+}
+.block{
+  background: #fff;
+  margin-top: 15rpx;
+}
+.block-title{
+  position: relative;
+  font-size: 34rpx;
+  line-height: 1.5;
+  background: #2e5e86;
+  padding: 10rpx 20rpx;
+  text-indent: 40rpx;
+}
+.block-title::after{
+  position: absolute;
+  left: 20rpx;
+  top: 10rpx;
+  content: "";
+  width: 10rpx;
+  height: 40rpx;
+  background: #2e5e86;
+}
+.block-desc{
+  display: block;
+  color: #666;
+  line-height: 1.6;
+  font-size: 30rpx;
+  padding: 0 30rpx 30rpx;
+}
+.code-pic{
+  display: flex;
+  justify-content:center;
+  align-items:center; 
+  height: 344epx;
+  width: 100%;
+}
+.code-pic image {
+  height: 344rpx;
+  width:344rpx;
+}
+
+.foot-btn{
+  overflow: hidden;
+  display: flex;
+  justify-content:space-between;
+}
+.btn-ask{
+  float: left;
+  height: 200rpx;
+  width: 200rpx;
+}
+
+.btn-ask image{
+  height: 100%;
+  width: 100%;
+}
+
+.btn-call{
+  float: left;
+  height: 200rpx;
+  width: 200rpx;
+}
+
+.btn-call image{
+  height: 80%;
+  width: 100%;
+  margin-top: 10%;
+}

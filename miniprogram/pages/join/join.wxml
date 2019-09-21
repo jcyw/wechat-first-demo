@@ -1,5 +1,32 @@
 <!--pages/join/join.wxml-->
-<image class='banner' src='/iamges/about.jpg'></image>
+<image class='banner' src='/images/about.jpg'></image>
 
-<view >
+<view class='block'>
+  <view class='block-title'>关于我们</view>
+  <text class='block-desc'>我是描述1
+    我是描述2
+    我是描述3
+    我是描述4
+    </text>
 </view>
+
+<view class='block'>
+  <view class='block-title'>关于我们</view>
+  <text class='block-desc'>我是描述1
+    我是描述2
+    我是描述3
+    我是描述4
+    </text>
+</view>
+<view class='code-pic'>
+  <image  src='/images/qr_code.jpg'></image>
+</view>
+<view class='foot-btn'>
+  <button class='btn-ask'>
+  <image src='/images/wechat_ask.png'></image>
+  </button>
+  <button class='btn-call'>
+  <image src='/images/wechat_call.png'></image>
+  </button>
+</view>
+
