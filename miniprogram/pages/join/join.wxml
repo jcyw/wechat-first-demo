@@ -1,0 +1,5 @@
+<!--pages/join/join.wxml-->
+<image class='banner' src='/iamges/about.jpg'></image>
+
+<view >
+</view>
