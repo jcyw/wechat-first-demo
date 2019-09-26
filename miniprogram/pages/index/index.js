@@ -35,6 +35,14 @@ Page({
     console.log(e)
     var index = e.currentTarget.dataset.index
     console.log("index = "+index)
+
+    //本地缓存传值
+    wx.setStorageSync('title', this.data.proList[index].title)
+
+    //url 传值
+    wx.navigateTo({
+      url: '/pages/detail/detail?title='+this.data.proList[index].title,
+    })
   },
   onLoad: function() {
     

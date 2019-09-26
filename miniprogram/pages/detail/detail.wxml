@@ -1,0 +1,4 @@
+<!--miniprogram/pages/detail.wxml-->
+<text>url传值-->{{temp}}
+本地缓存传值-->{{temp1}}
+</text>
